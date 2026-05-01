@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTimingSystemSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TimingSystemSettings xsi:type="ArucoTimingSettings">
+    <Role>Primary</Role>
+    <MarkerIds>2</MarkerIds>
+    <DetectMode>Hybrid</DetectMode>
+    <MarkerThreshold>2</MarkerThreshold>
+    <FlickerLengthMs>150</FlickerLengthMs>
+    <MinMarkerPercent>0.1</MinMarkerPercent>
+    <ErrorCorrectionRate>0.6</ErrorCorrectionRate>
+    <HybridDistanceThreshold>20</HybridDistanceThreshold>
+    <UseMultiThreadDetection>true</UseMultiThreadDetection>
+    <ShowMarkerBox>true</ShowMarkerBox>
+    <ShowMarkerId>true</ShowMarkerId>
+    <ShowMarkerSizePercent>true</ShowMarkerSizePercent>
+    <ShowFps>true</ShowFps>
+  </TimingSystemSettings>
+  <TimingSystemSettings xsi:type="ArucoTimingSettings">
+    <Role>Split</Role>
+    <MarkerIds>0</MarkerIds>
+    <DetectMode>Hybrid</DetectMode>
+    <MarkerThreshold>2</MarkerThreshold>
+    <FlickerLengthMs>150</FlickerLengthMs>
+    <MinMarkerPercent>0.1</MinMarkerPercent>
+    <ErrorCorrectionRate>0.6</ErrorCorrectionRate>
+    <HybridDistanceThreshold>20</HybridDistanceThreshold>
+    <UseMultiThreadDetection>true</UseMultiThreadDetection>
+    <ShowMarkerBox>true</ShowMarkerBox>
+    <ShowMarkerId>true</ShowMarkerId>
+    <ShowMarkerSizePercent>true</ShowMarkerSizePercent>
+    <ShowFps>false</ShowFps>
+  </TimingSystemSettings>
+  <TimingSystemSettings xsi:type="ArucoTimingSettings">
+    <Role>Split</Role>
+    <MarkerIds>1</MarkerIds>
+    <DetectMode>Hybrid</DetectMode>
+    <MarkerThreshold>2</MarkerThreshold>
+    <FlickerLengthMs>150</FlickerLengthMs>
+    <MinMarkerPercent>0.1</MinMarkerPercent>
+    <ErrorCorrectionRate>0.6</ErrorCorrectionRate>
+    <HybridDistanceThreshold>20</HybridDistanceThreshold>
+    <UseMultiThreadDetection>true</UseMultiThreadDetection>
+    <ShowMarkerBox>true</ShowMarkerBox>
+    <ShowMarkerId>true</ShowMarkerId>
+    <ShowMarkerSizePercent>true</ShowMarkerSizePercent>
+    <ShowFps>false</ShowFps>
+  </TimingSystemSettings>
+  <TimingSystemSettings xsi:type="ArucoTimingSettings">
+    <Role>Split</Role>
+    <MarkerIds>3</MarkerIds>
+    <DetectMode>Hybrid</DetectMode>
+    <MarkerThreshold>2</MarkerThreshold>
+    <FlickerLengthMs>150</FlickerLengthMs>
+    <MinMarkerPercent>0.1</MinMarkerPercent>
+    <ErrorCorrectionRate>0.6</ErrorCorrectionRate>
+    <HybridDistanceThreshold>20</HybridDistanceThreshold>
+    <UseMultiThreadDetection>true</UseMultiThreadDetection>
+    <ShowMarkerBox>true</ShowMarkerBox>
+    <ShowMarkerId>true</ShowMarkerId>
+    <ShowMarkerSizePercent>true</ShowMarkerSizePercent>
+    <ShowFps>false</ShowFps>
+  </TimingSystemSettings>
+</ArrayOfTimingSystemSettings>
