@@ -7,13 +7,12 @@
     <ShownDecimalPlaces>3</ShownDecimalPlaces>
     <FrameRateLimit>60</FrameRateLimit>
     <VSync>true</VSync>
+    <AntiAliasing>true</AntiAliasing>
     <InverseResolutionScalePercent>100</InverseResolutionScalePercent>
     <UseDirectX9>false</UseDirectX9>
     <VideosToKeep>50</VideosToKeep>
     <EventStorageLocation>events/</EventStorageLocation>
     <VideoStaticDetector>false</VideoStaticDetector>
-    <CrashThreshold>4</CrashThreshold>
-    <ReactivateThreshold>20</ReactivateThreshold>
     <StartDelaySeconds>5</StartDelaySeconds>
     <AutoSync>true</AutoSync>
     <HTTPServer>true</HTTPServer>
@@ -67,7 +66,7 @@
     <TopBlank>false</TopBlank>
     <NotificationSerialPort />
     <NotificationURL> http://localhost:5050/api/fpvtrackside/notification</NotificationURL>
-    <NotificationEnabled>true</NotificationEnabled>
+    <Notifier>Disabled</Notifier>
     <SillyNameChance>0.05</SillyNameChance>
     <PilotProfileChromaKey>false</PilotProfileChromaKey>
     <PilotProfileChromaKeyColor>Green</PilotProfileChromaKeyColor>
@@ -78,10 +77,15 @@
     <PilotProfileHoldLengthSeconds>0</PilotProfileHoldLengthSeconds>
     <PilotProfileMask>true</PilotProfileMask>
     <PilotProfileMaskAlpha>0.6</PilotProfileMaskAlpha>
-    <SponsoredByMessages>false</SponsoredByMessages>
-    <ScreensaverIdleMinutes>5</ScreensaverIdleMinutes>
+    <LuaScriptTimeoutSeconds>10</LuaScriptTimeoutSeconds>
     <QRPilotScan>false</QRPilotScan>
     <QRPilotScanFrequencySeconds>0.1</QRPilotScanFrequencySeconds>
     <QRPilotScanCentreCropFraction>0.5</QRPilotScanCentreCropFraction>
+    <TrainingPilotCheckIntervalSeconds>1</TrainingPilotCheckIntervalSeconds>
+    <TrainingRaceStartDelaySeconds>5</TrainingRaceStartDelaySeconds>
+    <TrainingMotionDetectSeconds>3</TrainingMotionDetectSeconds>
+    <TrainingStaticDetectSeconds>2</TrainingStaticDetectSeconds>
+    <TrainingRaceCooldownSeconds>30</TrainingRaceCooldownSeconds>
+    <TrainingMinRaceLengthSeconds>30</TrainingMinRaceLengthSeconds>
   </ApplicationProfileSettings>
 </ArrayOfApplicationProfileSettings>

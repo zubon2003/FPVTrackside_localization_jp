@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAutoRunnerConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AutoRunnerConfig>
+    <SecondsToShowResults>10</SecondsToShowResults>
+    <SecondsToNextRace>40</SecondsToNextRace>
+    <SecondsToFinishFinalLapAfterTimesUp>10</SecondsToFinishFinalLapAfterTimesUp>
+    <CheckPilotsVideo>false</CheckPilotsVideo>
+    <SecondsDelayIfStatic>90</SecondsDelayIfStatic>
+    <AnnounceNextRaceIn>false</AnnounceNextRaceIn>
+    <NextRaceInAnnounceSeconds>
+      <int>10</int>
+      <int>20</int>
+      <int>30</int>
+      <int>45</int>
+      <int>60</int>
+      <int>90</int>
+      <int>120</int>
+      <int>180</int>
+      <int>240</int>
+      <int>300</int>
+    </NextRaceInAnnounceSeconds>
+    <AutoCreateRounds>true</AutoCreateRounds>
+    <AutoCreateRoundsType>CloneLast</AutoCreateRoundsType>
+  </AutoRunnerConfig>
+</ArrayOfAutoRunnerConfig>

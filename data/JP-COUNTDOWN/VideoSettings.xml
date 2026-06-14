@@ -11,8 +11,8 @@
       <Height>720</Height>
       <FrameRate>60</FrameRate>
       <Format>YUY2</Format>
-      <Index>48</Index>
-      <FrameWork>MediaFoundation</FrameWork>
+      <Index>22</Index>
+      <FrameWork>DirectShow</FrameWork>
     </VideoMode>
     <FlipMirrored>None</FlipMirrored>
     <Pauseable>true</Pauseable>
@@ -26,7 +26,7 @@
     <AudioDevice>None</AudioDevice>
     <VideoBounds>
       <VideoBounds>
-        <Channel>E 1</Channel>
+        <Channel>E 2</Channel>
         <RelativeSourceBounds>
           <X>0</X>
           <Y>0</Y>
@@ -40,7 +40,7 @@
         <Crop>false</Crop>
       </VideoBounds>
       <VideoBounds>
-        <Channel>Fatshark 1</Channel>
+        <Channel>E 1</Channel>
         <RelativeSourceBounds>
           <X>0.5</X>
           <Y>0</Y>
@@ -54,7 +54,7 @@
         <Crop>false</Crop>
       </VideoBounds>
       <VideoBounds>
-        <Channel>Fatshark 4</Channel>
+        <Channel>Fatshark 3</Channel>
         <RelativeSourceBounds>
           <X>0</X>
           <Y>0.5</Y>

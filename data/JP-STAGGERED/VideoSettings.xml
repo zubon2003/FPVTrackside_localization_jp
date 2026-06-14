@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVideoConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VideoConfig>
+    <DeviceName>C8 USB3.0 Video</DeviceName>
+    <AnyUSBPort>true</AnyUSBPort>
+    <DirectShowPath>@device:pnp:\\?\usb#vid_345f&amp;pid_2131&amp;mi_00#7&amp;1d3088&amp;1&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global</DirectShowPath>
+    <MediaFoundationPath>\\?\usb#vid_345f&amp;pid_2131&amp;mi_00#7&amp;1d3088&amp;1&amp;0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global</MediaFoundationPath>
+    <ffmpegId>@device_pnp_\\?\usb#vid_345f&amp;pid_2131&amp;mi_00#7&amp;1d3088&amp;1&amp;0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global</ffmpegId>
+    <VideoMode>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <FrameRate>60</FrameRate>
+      <Format>YUY2</Format>
+      <Index>22</Index>
+      <FrameWork>DirectShow</FrameWork>
+    </VideoMode>
+    <FlipMirrored>None</FlipMirrored>
+    <Pauseable>true</Pauseable>
+    <HardwareAcceleration>true</HardwareAcceleration>
+    <Splits>TwoByTwo</Splits>
+    <ChannelCoveragePercent>99</ChannelCoveragePercent>
+    <RecordVideoForReplays>true</RecordVideoForReplays>
+    <RecordResolution>480</RecordResolution>
+    <RecordFrameRate>30</RecordFrameRate>
+    <DeviceLatency>0</DeviceLatency>
+    <AudioDevice>None</AudioDevice>
+    <VideoBounds>
+      <VideoBounds>
+        <Channel>E 2</Channel>
+        <RelativeSourceBounds>
+          <X>0</X>
+          <Y>0</Y>
+          <Width>0.5</Width>
+          <Height>0.5</Height>
+        </RelativeSourceBounds>
+        <SourceType>FPVFeed</SourceType>
+        <OverlayText />
+        <OverlayAlignment>TopLeft</OverlayAlignment>
+        <ShowInGrid>false</ShowInGrid>
+        <Crop>false</Crop>
+      </VideoBounds>
+      <VideoBounds>
+        <Channel>E 1</Channel>
+        <RelativeSourceBounds>
+          <X>0.5</X>
+          <Y>0</Y>
+          <Width>0.5</Width>
+          <Height>0.5</Height>
+        </RelativeSourceBounds>
+        <SourceType>FPVFeed</SourceType>
+        <OverlayText />
+        <OverlayAlignment>TopLeft</OverlayAlignment>
+        <ShowInGrid>false</ShowInGrid>
+        <Crop>false</Crop>
+      </VideoBounds>
+      <VideoBounds>
+        <Channel>Fatshark 3</Channel>
+        <RelativeSourceBounds>
+          <X>0</X>
+          <Y>0.5</Y>
+          <Width>0.5</Width>
+          <Height>0.5</Height>
+        </RelativeSourceBounds>
+        <SourceType>FPVFeed</SourceType>
+        <OverlayText />
+        <OverlayAlignment>TopLeft</OverlayAlignment>
+        <ShowInGrid>false</ShowInGrid>
+        <Crop>false</Crop>
+      </VideoBounds>
+      <VideoBounds>
+        <Channel>Fatshark 5</Channel>
+        <RelativeSourceBounds>
+          <X>0.5</X>
+          <Y>0.5</Y>
+          <Width>0.5</Width>
+          <Height>0.5</Height>
+        </RelativeSourceBounds>
+        <SourceType>FPVFeed</SourceType>
+        <OverlayText />
+        <OverlayAlignment>TopLeft</OverlayAlignment>
+        <ShowInGrid>false</ShowInGrid>
+        <Crop>false</Crop>
+      </VideoBounds>
+    </VideoBounds>
+  </VideoConfig>
+</ArrayOfVideoConfig>

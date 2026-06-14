@@ -2,15 +2,15 @@
 <ArrayOfSound xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sound>
     <Key>StartRaceIn</Key>
-    <Enabled>false</Enabled>
-    <TextToSpeech>アームしてください。{time_raw}秒以内にスタートします</TextToSpeech>
+    <Enabled>true</Enabled>
+    <TextToSpeech>アームしてください。{time}秒以内にスタートします</TextToSpeech>
     <Rate>0</Rate>
     <Volume>100</Volume>
     <Category>Race</Category>
   </Sound>
   <Sound>
     <Key>StartRaceIn8</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>Get ready</TextToSpeech>
     <Filename>sounds\get_ready.wav</Filename>
     <Rate>0</Rate>
@@ -19,7 +19,7 @@
   </Sound>
   <Sound>
     <Key>StartRaceIn5</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>5</TextToSpeech>
     <Filename>sounds\5.wav</Filename>
     <Rate>0</Rate>
@@ -28,7 +28,7 @@
   </Sound>
   <Sound>
     <Key>StartRaceIn4</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>4</TextToSpeech>
     <Filename>sounds\4.wav</Filename>
     <Rate>0</Rate>
@@ -37,7 +37,7 @@
   </Sound>
   <Sound>
     <Key>StartRaceIn3</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>3</TextToSpeech>
     <Filename>sounds\3.wav</Filename>
     <Rate>0</Rate>
@@ -46,7 +46,7 @@
   </Sound>
   <Sound>
     <Key>StartRaceIn2</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>2</TextToSpeech>
     <Filename>sounds\2.wav</Filename>
     <Rate>0</Rate>
@@ -55,7 +55,7 @@
   </Sound>
   <Sound>
     <Key>StartRaceIn1</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>1</TextToSpeech>
     <Filename>sounds\1.wav</Filename>
     <Rate>0</Rate>
@@ -66,7 +66,7 @@
     <Key>RaceStart</Key>
     <Enabled>true</Enabled>
     <TextToSpeech>Go</TextToSpeech>
-    <Filename>sounds\go.wav</Filename>
+    <Filename>sounds\tone.wav</Filename>
     <Rate>0</Rate>
     <Volume>100</Volume>
     <Category>Race</Category>
@@ -258,7 +258,7 @@
   </Sound>
   <Sound>
     <Key>NewLapRecord</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>{pilot} 記録更新 {count} ラップ {lapstime_raw}.{lapstime_ms_raw}秒</TextToSpeech>
     <Rate>0</Rate>
     <Volume>100</Volume>
@@ -266,7 +266,7 @@
   </Sound>
   <Sound>
     <Key>NewHoleshotRecord</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>{pilot} ホールショット記録更新 {time_raw}.{time_ms_raw}秒</TextToSpeech>
     <Rate>0</Rate>
     <Volume>100</Volume>
@@ -348,7 +348,7 @@
   </Sound>
   <Sound>
     <Key>GamePoint</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>BEEP</TextToSpeech>
     <Filename>sounds/detection.wav</Filename>
     <Rate>0</Rate>
@@ -357,7 +357,7 @@
   </Sound>
   <Sound>
     <Key>GamePointsRemaining</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>{pilots} {points} points remaining</TextToSpeech>
     <Rate>0</Rate>
     <Volume>100</Volume>
@@ -365,7 +365,7 @@
   </Sound>
   <Sound>
     <Key>GameEnded</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>Game over man. Game over.</TextToSpeech>
     <Rate>0</Rate>
     <Volume>100</Volume>
@@ -373,7 +373,7 @@
   </Sound>
   <Sound>
     <Key>GameWins</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>{pilots} has {points} and WINS THE GAME!</TextToSpeech>
     <Rate>0</Rate>
     <Volume>100</Volume>
@@ -381,7 +381,7 @@
   </Sound>
   <Sound>
     <Key>GameCaptured</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>Timing system {count} captured by {pilots}</TextToSpeech>
     <Rate>0</Rate>
     <Volume>100</Volume>
@@ -389,7 +389,7 @@
   </Sound>
   <Sound>
     <Key>GameCaptureDetection</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>beep</TextToSpeech>
     <Filename>sounds/split.wav</Filename>
     <Rate>0</Rate>
@@ -479,7 +479,7 @@
   </Sound>
   <Sound>
     <Key>Flag</Key>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <TextToSpeech>Flagged</TextToSpeech>
     <Rate>0</Rate>
     <Volume>100</Volume>

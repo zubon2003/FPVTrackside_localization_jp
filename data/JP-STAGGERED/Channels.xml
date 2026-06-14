@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSimpleChannel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SimpleChannel>
+    <Number>1</Number>
+    <Band>E</Band>
+    <Prefix>0</Prefix>
+    <DisplayName>E1</DisplayName>
+  </SimpleChannel>
+  <SimpleChannel>
+    <Number>1</Number>
+    <Band>Fatshark</Band>
+    <Prefix>0</Prefix>
+    <DisplayName>F1</DisplayName>
+  </SimpleChannel>
+  <SimpleChannel>
+    <Number>4</Number>
+    <Band>Fatshark</Band>
+    <Prefix>0</Prefix>
+    <DisplayName>F4</DisplayName>
+  </SimpleChannel>
+</ArrayOfSimpleChannel>
