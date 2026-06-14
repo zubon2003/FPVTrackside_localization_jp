@@ -65,8 +65,8 @@
     <TopClock>true</TopClock>
     <TopBlank>false</TopBlank>
     <NotificationSerialPort />
-    <NotificationURL> http://localhost:5050/api/fpvtrackside/notification</NotificationURL>
-    <Notifier>Disabled</Notifier>
+    <NotificationURL> http://localhost:8765</NotificationURL>
+    <Notifier>ExtensionMode</Notifier>
     <SillyNameChance>0.05</SillyNameChance>
     <PilotProfileChromaKey>false</PilotProfileChromaKey>
     <PilotProfileChromaKeyColor>Green</PilotProfileChromaKeyColor>
